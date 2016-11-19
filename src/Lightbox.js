@@ -232,6 +232,7 @@ class Lightbox extends Component {
 					style={{
 						cursor: this.props.onClickImage ? 'pointer' : 'auto',
 						maxHeight: `calc(100vh - ${heightOffset})`,
+						backgroundColor: 'white',
 					}}
 				/>
 				<Footer
